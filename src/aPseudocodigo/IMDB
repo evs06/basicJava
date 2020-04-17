@@ -1,0 +1,40 @@
+1.  Login
+
+registroCorrecto() {
+	navegar(“https://imdb.com”)
+	registrarCuenta(cris, cris@cris.com, test@1234)
+	validarCuenta(cris)
+}
+
+registrarCuenta(nombreUsuario, correo, contrastan) {
+	sdfkdsf
+	sdfsdf
+	sdfsdf
+	sdfsdfsdf
+	sdfsdf
+}
+navegar(url) {
+	abrir navegador
+	escribir la url en la barra
+	darle click a enter
+	validar que la pagina no tiene errores
+}
+
+
+loginCorrecto() {
+	navegar(“https://imdb.com”)
+	ingresarCredenciales(“frank”, “Sinatra”)
+	validarUsuario(“frank”)
+}
+
+ingresarCredenciales(usuario, password). {
+	dar click en la liga de sign in
+	dar click en “sign in with imdv”
+	ingresar el usuario en el campo
+	ingresar el password en el campo
+	dar click en el boton de sign-in
+}
+
+validarUsuario(nombreUsuario) {
+	asegurarse que el nombreUsuario aparece en la esquina superior derecha
+}

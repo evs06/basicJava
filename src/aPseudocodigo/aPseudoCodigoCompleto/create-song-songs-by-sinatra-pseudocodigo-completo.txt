@@ -1,0 +1,37 @@
+CREATE A NEW SONG
+
+Precondiciones:
+1.- Haber ingresado desde el browser a la URL http://songs-by-sinatra.herokuapp.com/
+2.- Haberse logueado con el usuario sinatra
+
+
+1.- Hacer clic en el menú Songs
+2.- Verificar que nos encontramos en la pantalla de Songs
+ * Create a new Songs
+ * Listado de canciones agregadas
+ * Link Logout
+3.- Hacer clic en Create a new Songs
+4.- Verificar que nos encontremos en la pantalla de Add New Songs
+ * Campo Title
+ * Campo Length
+ * Campo Date
+ * Lyrics
+ * Botón Save Song
+ * Link Logout
+5.- Ingresar los datos
+  * Campo Title: Tutatuta
+ * Campo Length: 300
+ * Campo Date: 11/04/2020
+ * Lyrics: Test.
+6.- Hacer clic en el botón Save
+7.- Verificar que la canción se haya agregado exitosamente
+ * Mensaje: Song successfully added
+ * Título de la Canción: Tutatuta
+ * Fecha que se ingresó: 11 de Abril 2020
+ * Longitud: 5 minutos 0 seconds
+ * Comentario: Test.
+ * No tiene like
+ * Botón de Like
+ * Link edit this song
+ * Botón delete this song
+ * Link Logout

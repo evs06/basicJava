@@ -1,3 +1,4 @@
+//Omar
 * Reúna los ingredientes
     Pan ( Rebanado, Barra, Blanco, Integral, Trigo, Centeno )
     aderezo ( Mayonesa, crema, mostaza ),
@@ -40,3 +41,27 @@
     ¿Cortar por mitades? ¿Cuartos?
 
 * Envolver el sándwich
+
+
+//Equipo 3
+SANDWICH JAMON
+
+Precondición:
+Tener todos los utencilios necesarios para preparar el sandwich
+Tener: Mayonesa, mostaza, lechuga, cebolla, jitomate, jamón, pan
+
+
+1.- Ir a la cocina
+2.- Buscar y sacar los ingredientes necesarios del sandwich
+3.- Sacar 2 rebanadas de pan de la bolsa
+4.- Abrir la mayonesa
+5.- Tomar una cuchara y untar la mayonesa sobre el pan
+6.- Tomar un jitomate y lavarlo
+7.- El jitomate será partido en rodajas
+8.- Tomar un lechuga y lavarlo
+9.- La lechuga será partida en pequeños pedazos
+10.- Tomar un cebolla y partilo en rodajas
+11.- Poner el jamón sobre el pan al gusto
+12.- Poner el jitomate, lechuga y cebolla sobre una rebanada de pan al gusto
+13.- Poner la otra rebana de pan sobre el otro pedazo que fue preparado
+

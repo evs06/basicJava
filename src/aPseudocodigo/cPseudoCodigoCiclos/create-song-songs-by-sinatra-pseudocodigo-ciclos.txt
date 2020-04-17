@@ -1,0 +1,82 @@
+createSong() {
+    login()
+    listarCanciones()
+    ingresarDatosCanciones()
+}
+
+login() {
+1  abrir el navegador
+    2. ingresar la url
+    3. verificar que la pagina cargo
+      * imagen de sinatra
+      * el link de login
+    4.  darle click al link de login
+    5.  verificar que se abre la pagina de login
+      * campo de usuario
+      * campo de password
+      * boton de login
+    6. ingresar las credenciales
+      * usuario es frank
+      * password es sinatra
+    7. darle click a login
+    8 verificar que estoy logueado
+      * mensaje de bienvenida que dice "You are now logged in as frank"
+      * aparece la imagen
+      * link de log out
+}
+
+
+listarCanciones() {
+1.- Hacer clic en el menú Songs
+2.- Verificiar que nos encontramos en la pantalla de Songs
+ * Create a new Songs
+ * Listado de canciones agregadas
+ * Link Logout
+}
+
+ingresarDatosCanciones() {
+1.- Hacer clic en Create a new Songs
+2.- Verificar que nos encontremos en la pantalla de Add New Songs
+ * Campo Title
+ * Campo Length
+ * Campo Date
+ * Lyrics
+ * Botón Save Song
+ * Link Logout
+ 3.- Ingresar los datos
+  * Campo Title: Tutatuta
+ * Campo Length: 300
+ * Campo Date: 11/04/2020
+ * Lyrics: Test.
+ 4.- Hacer clic en el botón Save
+ validarDatosCanciones()
+ createothersong()
+}
+
+validarDatosCanciones() {
+1.- Verificar que la canción se haya agregado exitosamente
+ * Mensaje: Song successfully added
+ * Título de la Canción: Tutatuta
+ * Fecha que se ingresó: 11 de Abril 2020
+ * Longitud: 5 minutos 0 seconds
+ * Comentario: Test.
+ * No tiene like
+ * Botón de Like
+ * Link edit this song
+ * Botón delete this song
+ * Link Logout
+}
+
+createothersong(){
+createsong=text
+repetircreacion=1
+while(repetircreacion==1){
+1.- Se solicita la creación de otra canción. ¿Desea crear otra canción: Sí/No?
+2.- if(createsong==Sí)
+        ingresarDatosCanciones()
+        else{
+        repetircreacion=0
+        Impirmir ("Ha salido del sistema")
+        }
+    }
+}

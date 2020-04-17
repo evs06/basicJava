@@ -1,0 +1,27 @@
+createSong(usuario, password) {
+    login(usuario, password)
+}
+
+String login(usuario, password) {
+1  abrir el navegador
+    2. ingresar la url
+    3. verificar que la pagina cargo
+      * imagen de sinatra
+      * el link de login
+    4.  darle click al link de login
+    5.  verificar que se abre la pagina de login
+      * campo de usuario
+      * campo de password
+      * boton de login
+    6. ingresar las credenciales
+      * usuario es frank
+      * password es sinatra
+    7. darle click a login
+    8 verificar que estoy logueado
+      * mensaje de bienvenida que dice "You are now logged in as frank"
+      * obtenemos el token
+      * aparece la imagen
+      * link de log out
+
+      return token;
+}

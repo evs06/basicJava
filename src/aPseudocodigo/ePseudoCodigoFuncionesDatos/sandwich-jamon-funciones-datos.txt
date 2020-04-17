@@ -6,3 +6,95 @@ sandwich hacerSandwich(tipoSandwich) {
           return hacerSandwichBolonia();
      }
 }
+
+
+
+SANDWICH JAMOM
+
+sanwichjamon(mayonesa, mostaza, rjamon, jitomate, cebolla, lechuga) {
+    cocina()
+    pan()
+    prepararvegetales()
+    jamon()
+    construir()
+}
+
+boolean cocina(usuario, password){
+1.- Ir a la cocina
+2.- Buscar y tener preparados los ingredientes y utencilios
+
+return true;
+}
+
+boolean pan(mayonesa, mostaza){
+otropan=text
+1.- Tener 2 rebanadas de pan para sandwich
+2.- Separar las rebanadas de pan
+3.- Tomar una rebana de pan sin ingredientes
+4.- Tomar el frasco de mayonesa
+untar(mayonesa)
+5.- Tomar el frasco de mostaza
+untar(mostaza)
+6.- Preguntar si desea hacer lo mismo con la otra rebanada de pan. ¿Untar lo mismo
+en la otra rebanada de pan: Sí/No?
+    if(otropan == Sí){
+    pan(mayonesa, mostaza)
+    listopan=true
+    }
+return listopan ;
+}
+
+void jamon(rjamon){
+respuestajamon=text
+1.- Tomar 1 rebanada de jamón
+2.- Encimar las rebanadas de jamón sobre un pan untado de ingredientes
+3.- ¿Tomar otra rebanada de jamón?
+respuestajamon=Sí
+if(respuestajamon == Sí)
+jamon(rjamon)
+}
+
+
+boolean prepararvegetales(jitomate, cebolla, lechuga){
+vegetaleslistos=false
+1.- Tomar ingrediente
+lavar(jitomate)
+rebanar(jitomate)
+
+lavar(cebolla)
+rebanar(cebolla)
+
+lavar(lechuga)
+rebanar(cebolla)
+
+vegetaleslistos=true
+
+return vegetaleslistos;
+
+}
+
+boolean construir(){
+construirlisto=false
+1.- Tomar la rebanada de pan sin ningún ingrediente
+2.- Encimar la rebanada de pan sobre lo preparado anteriormente
+
+construirlisto=true
+return construirlisto ;
+}
+
+void untar(mayoneza, mostaza){
+1.- Abrir o despatapar el frasco del ingrediente
+2.- Con el cuchillo untar una porción al gusto del ingredientes
+3.- Untar sobre un pedazo de pan el ingrediente
+}
+
+
+void lavar(jitomate, cebolla, lechuga){
+1.- Lavar el ingrediente con agua y jabón
+2.- Secar el ingrediente
+}
+
+void rebanar(jitomate, cebolla, lechuga){
+1.- Tomar el cuchillo
+2.- Cortar el ingrediente al gusto para el sandwich
+}

@@ -1,0 +1,83 @@
+1.  agregar un contacto
+
+navegar(URL){
+1.- Abrir el browser
+2.- Ingresar a URL
+3.- Verificar:
+ * Campo User
+ * Campo Password
+ * Botón Login
+}
+
+login(username, password){
+1.- Ingresar username
+2.- Ingresar password
+3.- Hacer clic em el botón Login
+4.- Verificar:
+    *Campo Búsqueda
+    *Lupa
+    *Foto
+    *Nombre
+}
+
+busqueda(nombreb){
+1.- Ingresar nombreb
+2.- Verificar
+ * Dropdown de resultados
+3.- Hacer clic en la lupa
+4.- Verificar
+ * Aparecen varios resultados en la pestaña de 'todos'
+
+}
+
+navegarTab(nombreTab) {
+    1.-  Hacer click en la pestaña que indique el parametro
+    2.- Verificar
+     * Aparecen mas resultados en la pestaña que indique el parametro
+
+}
+
+decisionTAB(informacion, nombreTab ) {
+if(nombreTab == personas)
+agregarpersona(informacion)
+if(nombreTab == paginas)
+like(informacion)
+}
+
+agregarpersona(informacion){
+1.-  Hacer click en la pestaña de 'Personas'
+2.- Verificar
+ * Aparecen mas resultados en la pestaña de 'Personas'
+3.- Hacer scroll hasta encontrar a la persona que tiene la informacion
+4.- Hacer clic en el botón Agregar
+5.- Verificar
+ * El botón cambia el nombre a 'Solicitud de amistad enviada'
+}
+
+like(informacion){
+1.-  Hacer click en la pestaña de 'Páginas'
+2.- Verificar
+ * Aparecen mas resultados en la pestaña de 'Páginas'
+3.- Hacer scroll hasta encontrar a la pagina que tiene la informacion
+4.- dar click en el boton 'Me gusta'
+5.- Verificar
+ * Validar que aparece 'Te gusta'
+}
+
+1.  Agregar un contacto
+navegar(URL)
+login(username, password)
+busqueda(nombreb)
+navegarTab(nombreTab)
+decisionTAB(nombrePagina, nombrePersona, informacion, nombreTab )
+
+
+
+2.  darle like a una pagina
+navegar(URL)
+login(username, password)
+busqueda(nombreb)
+navegarTab(nombreTab)
+decisionTAB(informacion, nombreTab )
+
+

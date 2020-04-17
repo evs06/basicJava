@@ -1,0 +1,24 @@
+
+navegar(url) {
+	abrir navegador
+	escribir la url el browser
+	validar que exista el botón Sign In
+}
+
+
+createaccount(nombre,email,password) {
+	clic en botón Create a New Account
+	Verificar página de creación de cuenta
+	*Campo Your Name
+	*Campo email
+	*Campo password
+	*Botón Create your IMDB account
+	Ingresar:
+	*Campo Your Name: nombre
+    *Campo email: email
+    *Campo password: password
+    Hacer clic en el botón Create your IMDB account
+    Verificar
+    *Mensaje de creación exitoso de cuenta
+}
+

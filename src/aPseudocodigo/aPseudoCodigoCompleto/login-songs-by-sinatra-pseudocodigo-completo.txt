@@ -1,0 +1,20 @@
+LOGIN
+
+    1  Abrir el navegador
+    2. Ingresar la url
+    3. Verificar que la pagina cargo
+      * Imagen de sinatra
+      * El link de login
+    4.  Darle click al link de login
+    5.  Verificar que se abre la pagina de login
+      * Campo de usuario
+      * Campo de password
+      * BotOn de login
+    6. Ingresar las credenciales
+      * Usuario es frank
+      * Password es sinatra
+    7. Darle click a login
+    8 Verificar que estoy logueado
+      * Mensaje de bienvenida que dice "You are now logged in as frank"
+      * Aparece la imagen
+      * Link de log out

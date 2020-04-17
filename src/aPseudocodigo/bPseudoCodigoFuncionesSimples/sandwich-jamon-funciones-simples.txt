@@ -1,0 +1,62 @@
+SANDWICH JAMOM
+
+sanwichjamon() {
+    cocina()
+    pan()
+    prepararvegetales()
+    jamon()
+    construir()
+}
+
+cocina(){
+1.- Ir a la cocina
+2.- Buscar y tener preparados los ingredientes y utencilios
+}
+
+pan(){
+1.- Tener 2 rebanadas de pan para sandwich
+2.- Separar las rebanadas de pan
+untar(mayonesa)
+untar(mostaza)
+}
+
+jamon(){
+1.- Tomar rebanadas de jamón al gusto
+2.- Encimar las rebanadas de jamón sobre el pan untado de ingredientes
+}
+
+
+prepararvegetales(){
+1.- Tomar ingrediente
+lavar(jitomate)
+rebanar(jitomate)
+
+lavar(cebolla)
+rebanar(cebolla)
+
+lavar(lechuga)
+rebanar(cebolla)
+
+}
+
+construir(){
+1.- Tomar la rebanada de pan sin ningún ingrediente
+2.- Encimar la rebanada de pan sobre lo preparado anteriormente
+}
+
+untar(ingrediente){
+1.- Abrir o despatapar el frasco del ingrediente
+2.- Con el cuchillo untar una porción al gusto del ingredientes
+3.- Untar sobre un pedazo de pan el ingrediente
+}
+
+
+lavar(ingrediente){
+1.- Lavar el ingrediente con agua y jabón
+2.- Secar el ingrediente
+}
+
+rebanar(ingrediente){
+1.- Tomar el cuchillo
+2.- Cortar el ingrediente al gusto para el sandwich
+}

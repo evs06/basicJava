@@ -38,7 +38,6 @@ public class MarioDojo {
 		int numEspacios = altura - renglon;
 		for (int i=0 ; i < numEspacios ; i++)
 			System.out.print(" ");
-		
 	}
 
 	private static void dibujarGatos(int renglon, int altura) {
