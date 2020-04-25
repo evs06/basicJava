@@ -5,7 +5,7 @@ import libs.Input;
 public class Capitalize {
 
 	public static void main(String[] args) {
-		Input.print("Cual es tu nombre? ");
+		Input.print("'¿Cuál es tu nombre? ");
 		String s = Input.get_string();
 	    if (s != null)
 	    {

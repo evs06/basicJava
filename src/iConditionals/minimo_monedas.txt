@@ -3,6 +3,7 @@ Implementa un programa que muestre el numero minimo de monedas necesarias para d
 $ ./minimo_monedas
 Hola!  Cuanto cambio te debo?O hai!
 0.41
+
 4
 
 
